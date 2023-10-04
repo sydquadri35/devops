@@ -1,0 +1,16 @@
+Learning shell scripting.
+
+for making a script :
+
+1.vim test.sh
+intro for script
+
+#! /bin/bash
+2.mkdir test
+3.cd test
+4.touch testing.txt
+5.echo "i am in testingg file" > testingg.txt
+6.cat testingg.txt
+
+for output :
+bash test.sh or ./test.sh
