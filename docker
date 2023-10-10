@@ -1,0 +1,25 @@
+Installing docker for our project on ubuntu.
+  >installing command : sudo-apt install docker.io
+
+FROM--> installing operating system like ubuntu which already has python in it.
+RUN--> running any command such as running a python command for downloading the django app.
+COPY . . (FIRST DOT IS SOURCE, SECOND IS DESTINATION)
+
+
+
+  BuILD  command -->  docker build . -t "msg"( will build all the docker files 
+
+
+running a docker file:
+
+                                              sudo docker build . - t messagewithoutapostophes::
+Image is built and gives us an Image id.
+
+To check the state of image :
+>sudo docker ps 
+
+                                              
+
+to run the file   
+sudo docker run -p   8001:8001 (image id )                                         
+                                              
